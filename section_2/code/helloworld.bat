@@ -1,3 +1,4 @@
 @echo off
-echo "Hello World"
+set arg1=%1
+echo "Hello " %arg1%
 pause
